@@ -4,6 +4,45 @@
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
+
     /* fonts */
-    --outfit: 
+    --outfit:'Outfit', sem serifa;
+}
+
+html{
+    font-family: var(--outfit);
+    background-color: var(--light-gray);
+}
+
+.container {
+    /* position: absolute;
+    top: 10%;; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: var(--white);
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 30px;
+    padding: 20px 10px;
+    
+}
+
+img {
+    width: 35vh;
+    border-radius: 15px;
+}
+
+.title {
+    color: var(--dark-blue);
+    margin: 10px 10px;
+    font-size: 25px;
+}
+
+.subtitle{
+    color: var(--grayish-blue);
+    margin: 20px 20px;
 }
